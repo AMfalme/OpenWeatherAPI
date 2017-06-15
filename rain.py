@@ -18,7 +18,7 @@ def Internet_connection_check():
 		print str(e)
 		return False
 
-def Ask_Location():
+def Ask_Weather_At_Location():
 	#First we need to check for internet connection
 	city_travel = raw_input('Which city will you be travelling to?  Enter it\'s zip code:')
 	api_request = Request('http:/api.openweathermap.org/data/2.5/forecast?q='+city_travel+',us&mode=xml')
