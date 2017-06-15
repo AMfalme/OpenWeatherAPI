@@ -46,4 +46,4 @@ def Ask_Weather_At_Location():
 
 
 if Internet_connection_check():
-	Ask_Location()
+	Ask_Weather_At_Location()
