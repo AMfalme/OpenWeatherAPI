@@ -1,7 +1,5 @@
 """
-#1: GitHub repo containing a real-world problem modeled using OOP
- while taking advantage of inheritance, encapsulation, polymorphism and the other OOP concepts.
-
+This application prompts user to input zip code of a city and it returns the rain condition in mm at the city
 """
 openWeatherMap_key = "bf535a3579ee4b5aa616bf965e7225f5"
 from urllib2 import Request, urlopen, URLError
